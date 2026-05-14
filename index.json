@@ -1,0 +1,689 @@
+{
+    "aapt": {
+        "type": "executable",
+        "description": "Processes and links Android app resources (XML, images, etc.) into compiled formats. Essential for legacy apps.",
+        "linux": {
+            "arm": {
+                "33.0.0": {
+                    "label": "AAPT v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm/aapt-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm/aapt-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm/aapt-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm/aapt-v36"
+                }
+            },
+            "arm64": {
+                "33.0.0": {
+                    "label": "AAPT v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm64/aapt-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm64/aapt-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm64/aapt-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/arm64/aapt-v36"
+                }
+            },
+            "x86_64": {
+                "33.0.0": {
+                    "label": "AAPT v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86_64/aapt-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86_64/aapt-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86_64/aapt-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86_64/aapt-v36"
+                }
+            },
+            "x86": {
+                "33.0.0": {
+                    "label": "AAPT v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86/aapt-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86/aapt-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86/aapt-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt/linux/static/x86/aapt-v36"
+                }
+            }
+        }
+    },
+    "aapt2": {
+        "type": "executable",
+        "description": "The newer resource compiler that replaces aapt. Required for modern Android builds. It handles resource compilation, linking, and optimization incrementally.",
+        "linux": {
+            "arm": {
+                "33.0.0": {
+                    "label": "AAPT2 v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm/aapt2-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT2 v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm/aapt2-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT2 v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm/aapt2-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT2 v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm/aapt2-v36"
+                }
+            },
+            "arm64": {
+                "33.0.0": {
+                    "label": "AAPT2 v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm64/aapt2-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT2 v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm64/aapt2-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT2 v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm64/aapt2-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT2 v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/arm64/aapt2-v36"
+                }
+            },
+            "x86_64": {
+                "33.0.0": {
+                    "label": "AAPT2 v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86_64/aapt2-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT2 v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86_64/aapt2-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT2 v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86_64/aapt2-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT2 v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86_64/aapt2-v36"
+                }
+            },
+            "x86": {
+                "33.0.0": {
+                    "label": "AAPT2 v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86/aapt2-v33"
+                },
+                "34.0.0": {
+                    "label": "AAPT2 v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86/aapt2-v34"
+                },
+                "35.0.0": {
+                    "label": "AAPT2 v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86/aapt2-v35"
+                },
+                "36.0.0": {
+                    "label": "AAPT2 v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aapt2/linux/static/x86/aapt2-v36"
+                }
+            }
+        }
+    },
+    "aidl": {
+        "type": "executable",
+        "description": "Compiles .aidl interface files into Java/Kotlin bindings. Only needed if your project defines custom IPC interfaces between apps or services.",
+        "linux": {
+            "arm": {
+                "33.0.0": {
+                    "label": "AIDL v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm/aidl-v33"
+                },
+                "34.0.0": {
+                    "label": "AIDL v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm/aidl-v34"
+                },
+                "35.0.0": {
+                    "label": "AIDL v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm/aidl-v35"
+                },
+                "36.0.0": {
+                    "label": "AIDL v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm/aidl-v36"
+                }
+            },
+            "arm64": {
+                "33.0.0": {
+                    "label": "AIDL v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm64/aidl-v33"
+                },
+                "34.0.0": {
+                    "label": "AIDL v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm64/aidl-v34"
+                },
+                "35.0.0": {
+                    "label": "AIDL v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm64/aidl-v35"
+                },
+                "36.0.0": {
+                    "label": "AIDL v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/arm64/aidl-v36"
+                }
+            },
+            "x86_64": {
+                "33.0.0": {
+                    "label": "AIDL v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86_64/aidl-v33"
+                },
+                "34.0.0": {
+                    "label": "AIDL v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86_64/aidl-v34"
+                },
+                "35.0.0": {
+                    "label": "AIDL v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86_64/aidl-v35"
+                },
+                "36.0.0": {
+                    "label": "AIDL v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86_64/aidl-v36"
+                }
+            },
+            "x86": {
+                "33.0.0": {
+                    "label": "AIDL v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86/aidl-v33"
+                },
+                "34.0.0": {
+                    "label": "AIDL v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86/aidl-v34"
+                },
+                "35.0.0": {
+                    "label": "AIDL v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86/aidl-v35"
+                },
+                "36.0.0": {
+                    "label": "AIDL v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/aidl/linux/static/x86/aidl-v36"
+                }
+            }
+        }
+    },
+    "dexdump": {
+        "type": "executable",
+        "description": "Disassembles and inspects .dex bytecode files. Useful for debugging build output, verifying method counts, or reverse-engineering compiled code.",
+        "linux": {
+            "arm": {
+                "33.0.0": {
+                    "label": "Dexdump v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm/dexdump-v33"
+                },
+                "34.0.0": {
+                    "label": "Dexdump v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm/dexdump-v34"
+                },
+                "35.0.0": {
+                    "label": "Dexdump v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm/dexdump-v35"
+                },
+                "36.0.0": {
+                    "label": "Dexdump v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm/dexdump-v36"
+                }
+            },
+            "arm64": {
+                "33.0.0": {
+                    "label": "Dexdump v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm64/dexdump-v33"
+                },
+                "34.0.0": {
+                    "label": "Dexdump v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm64/dexdump-v34"
+                },
+                "35.0.0": {
+                    "label": "Dexdump v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm64/dexdump-v35"
+                },
+                "36.0.0": {
+                    "label": "Dexdump v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/arm64/dexdump-v36"
+                }
+            },
+            "x86_64": {
+                "33.0.0": {
+                    "label": "Dexdump v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86_64/dexdump-v33"
+                },
+                "34.0.0": {
+                    "label": "Dexdump v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86_64/dexdump-v34"
+                },
+                "35.0.0": {
+                    "label": "Dexdump v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86_64/dexdump-v35"
+                },
+                "36.0.0": {
+                    "label": "Dexdump v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86_64/dexdump-v36"
+                }
+            },
+            "x86": {
+                "33.0.0": {
+                    "label": "Dexdump v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86/dexdump-v33"
+                },
+                "34.0.0": {
+                    "label": "Dexdump v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86/dexdump-v34"
+                },
+                "35.0.0": {
+                    "label": "Dexdump v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86/dexdump-v35"
+                },
+                "36.0.0": {
+                    "label": "Dexdump v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/dexdump/linux/static/x86/dexdump-v36"
+                }
+            }
+        }
+    },
+    "split-select": {
+        "type": "executable",
+        "description": "Selects the correct APK split variant for a target device based on density, ABI, and language. Only useful for app bundle / split APK workflows.",
+        "linux": {
+            "arm": {
+                "33.0.0": {
+                    "label": "Split Select v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm/split-select-v33"
+                },
+                "34.0.0": {
+                    "label": "Split Select v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm/split-select-v34"
+                },
+                "35.0.0": {
+                    "label": "Split Select v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm/split-select-v35"
+                },
+                "36.0.0": {
+                    "label": "Split Select v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm/split-select-v36"
+                }
+            },
+            "arm64": {
+                "33.0.0": {
+                    "label": "Split Select v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm64/split-select-v33"
+                },
+                "34.0.0": {
+                    "label": "Split Select v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm64/split-select-v34"
+                },
+                "35.0.0": {
+                    "label": "Split Select v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm64/split-select-v35"
+                },
+                "36.0.0": {
+                    "label": "Split Select v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/arm64/split-select-v36"
+                }
+            },
+            "x86_64": {
+                "33.0.0": {
+                    "label": "Split Select v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86_64/split-select-v33"
+                },
+                "34.0.0": {
+                    "label": "Split Select v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86_64/split-select-v34"
+                },
+                "35.0.0": {
+                    "label": "Split Select v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86_64/split-select-v35"
+                },
+                "36.0.0": {
+                    "label": "Split Select v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86_64/split-select-v36"
+                }
+            },
+            "x86": {
+                "33.0.0": {
+                    "label": "Split Select v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86/split-select-v33"
+                },
+                "34.0.0": {
+                    "label": "Split Select v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86/split-select-v34"
+                },
+                "35.0.0": {
+                    "label": "Split Select v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86/split-select-v35"
+                },
+                "36.0.0": {
+                    "label": "Split Select v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/split-select/linux/static/x86/split-select-v36"
+                }
+            }
+        }
+    },
+    "zipalign": {
+        "type": "executable",
+        "description": "Aligns uncompressed data within an APK on 4-byte boundaries for memory-mapped performance. It improves the performance of apps.",
+        "linux": {
+            "arm": {
+                "33.0.0": {
+                    "label": "Zipalign v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm/zipalign-v33"
+                },
+                "34.0.0": {
+                    "label": "Zipalign v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm/zipalign-v34"
+                },
+                "35.0.0": {
+                    "label": "Zipalign v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm/zipalign-v35"
+                },
+                "36.0.0": {
+                    "label": "Zipalign v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm/zipalign-v36"
+                }
+            },
+            "arm64": {
+                "33.0.0": {
+                    "label": "Zipalign v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm64/zipalign-v33"
+                },
+                "34.0.0": {
+                    "label": "Zipalign v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm64/zipalign-v34"
+                },
+                "35.0.0": {
+                    "label": "Zipalign v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm64/zipalign-v35"
+                },
+                "36.0.0": {
+                    "label": "Zipalign v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/arm64/zipalign-v36"
+                }
+            },
+            "x86_64": {
+                "33.0.0": {
+                    "label": "Zipalign v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86_64/zipalign-v33"
+                },
+                "34.0.0": {
+                    "label": "Zipalign v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86_64/zipalign-v34"
+                },
+                "35.0.0": {
+                    "label": "Zipalign v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86_64/zipalign-v35"
+                },
+                "36.0.0": {
+                    "label": "Zipalign v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86_64/zipalign-v36"
+                }
+            },
+            "x86": {
+                "33.0.0": {
+                    "label": "Zipalign v33.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86/zipalign-v33"
+                },
+                "34.0.0": {
+                    "label": "Zipalign v34.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86/zipalign-v34"
+                },
+                "35.0.0": {
+                    "label": "Zipalign v35.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86/zipalign-v35"
+                },
+                "36.0.0": {
+                    "label": "Zipalign v36.0.0",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/binaries/zipalign/linux/static/x86/zipalign-v36"
+                }
+            }
+        }
+    },
+
+    "android.jar": {
+        "type": "jar",
+        "description": "Contains the Android framework API stubs for a specific API level. Required for compiling against Android SDK classes like Activity, View, and Intent.",
+        "files": {
+            "36": {
+                "label": "Android.jar API 36",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/36/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "35": {
+                "label": "Android.jar API 35",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/35/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "34": {
+                "label": "Android.jar API 34",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/34/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "33": {
+                "label": "Android.jar API 33",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/33/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "32": {
+                "label": "Android.jar API 32",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/32/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "31": {
+                "label": "Android.jar API 31",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/31/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "30": {
+                "label": "Android.jar API 30",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/30/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "29": {
+                "label": "Android.jar API 29",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/29/public/android.jar?format=TEXT",
+                "format": "base64"
+            },
+            "28": {
+                "label": "Android.jar API 28",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/28/public/android.jar?format=TEXT",
+                "format": "base64"
+            }
+        }
+    },
+    "manifest-merger": {
+        "type": "jar",
+        "description": "Merges multiple AndroidManifest.xml files from libraries and flavors into a single manifest. Required for projects with dependencies that contribute manifest entries.",
+        "files": {
+            "26.6.0-dev": {
+                "label": "Manifest Merger v26.6.0-dev",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/manifest-merger/manifest-merger-v26.6.0-dev.jar"
+            },
+            "30.1.0-alpha06": {
+                "label": "Manifest Merger v30.1.0-alpha06",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/manifest-merger/manifest-merger-v30.1.0-alpha06.jar"
+            },
+            "31.2.0-alpha08": {
+                "label": "Manifest Merger v31.2.0-alpha08",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/manifest-merger/manifest-merger-v31.2.0-alpha08.jar"
+            },
+            "31.9.0-alpha03": {
+                "label": "Manifest Merger v31.9.0-alpha03",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/manifest-merger/manifest-merger-v31.9.0-alpha03.jar"
+            }
+        }
+    },
+    "r8": {
+        "type": "jar",
+        "description": "R8 compiles Java bytecode into DEX, then shrinks and obfuscates it. Required for release builds and any project using code minification.",
+        "files": {
+            "9.1.31": {
+                "label": "R8 v9.1.31",
+                "url": "https://storage.googleapis.com/r8-releases/raw/9.1.31/r8.jar"
+            },
+            "9.0.32": {
+                "label": "R8 v9.0.32",
+                "url": "https://storage.googleapis.com/r8-releases/raw/9.0.32/r8.jar"
+            },
+            "8.7.18": {
+                "label": "R8 v8.7.18",
+                "url": "https://storage.googleapis.com/r8-releases/raw/8.7.18/r8.jar"
+            },
+            "8.5.35": {
+                "label": "R8 v8.5.35",
+                "url": "https://storage.googleapis.com/r8-releases/raw/8.5.35/r8.jar"
+            },
+            "8.2.42": {
+                "label": "R8 v8.2.42",
+                "url": "https://storage.googleapis.com/r8-releases/raw/8.2.42/r8.jar"
+            },
+            "8.1.72": {
+                "label": "R8 v8.1.72",
+                "url": "https://storage.googleapis.com/r8-releases/raw/8.1.72/r8.jar"
+            },
+            "3.3.75": {
+                "label": "R8 v3.3.75",
+                "url": "https://storage.googleapis.com/r8-releases/raw/3.3.75/r8.jar"
+            },
+            "2.0.100": {
+                "label": "R8 v2.0.100",
+                "url": "https://storage.googleapis.com/r8-releases/raw/2.0.100/r8.jar"
+            }
+        }
+    },
+    "apksigner": {
+        "type": "jar",
+        "description": "Signs APK files for distribution and provides cryptographic signature verification for Android. Required for app installation",
+        "files": {
+            "36": {
+                "label": "Apksigner API 36",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/apksigner/apksigner-v36.jar"
+            }
+        }
+    }
+
+}
