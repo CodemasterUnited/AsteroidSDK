@@ -684,6 +684,23 @@
                 "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/apksigner/apksigner-v36.jar"
             }
         }
+    },
+    "kotlin": {
+        "type": "set",
+        "handler": "kotlin_handler",
+        "description": "Kotlin enables Asteroid to compile Kotlin code into bytecode or Java-compatible classes.",
+        "version": {
+            "2.3.21": {
+                "label": "Kotlin v2.3.21",
+                "files": {
+                    "kotlin-compiler.jar": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler/2.3.21/kotlin-compiler-2.3.21.jar",
+                    "annotations-13.0.jar": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+                    "kotlin-stdlib.jar": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.3.21/kotlin-stdlib-2.3.21.jar",
+                    "kotlin-reflect.jar": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.3.21/kotlin-reflect-2.3.21.jar",
+                    "kotlinx-coroutines-core-jvm.jar": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar",
+                    "kotlin-annotation-processing.jar": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing/2.3.21/kotlin-annotation-processing-2.3.21.jar"
+                }
+            }
+        }
     }
-
 }
