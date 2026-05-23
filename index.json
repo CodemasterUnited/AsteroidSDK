@@ -706,5 +706,20 @@
                 }
             }
         }
+    },
+    "ksp": {
+        "type": "set",
+        "handler": "ksp_handler",
+        "description": "KSP is a fast, Kotlin-native API for processing annotations and generating code at compile time.",
+        "version": {
+            "2.3.7": {
+                "label": "KSP v2.3.7 (For Kotlin 2.3.21)",
+                "files": {
+                    "symbol-processing-aa.jar": "https://repo1.maven.org/maven2/com/google/devtools/ksp/symbol-processing-aa/2.3.7/symbol-processing-aa-2.3.7.jar",
+                    "symbol-processing-api.jar": "https://repo1.maven.org/maven2/com/google/devtools/ksp/symbol-processing-api/2.3.7/symbol-processing-api-2.3.7.jar",
+                    "symbol-processing-common-deps.jar": "https://repo1.maven.org/maven2/com/google/devtools/ksp/symbol-processing-common-deps/2.3.7/symbol-processing-common-deps-2.3.7.jar"
+                }
+            }
+        }
     }
 }
