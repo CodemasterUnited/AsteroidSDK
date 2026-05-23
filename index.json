@@ -565,7 +565,8 @@
     },
 
     "android.jar": {
-        "type": "jar",
+        "type": "file",
+        "extension": "jar",
         "description": "Contains the Android framework API stubs for a specific API level. Required for compiling against Android SDK classes like Activity, View, and Intent.",
         "files": {
             "36": {
@@ -616,7 +617,8 @@
         }
     },
     "manifest-merger": {
-        "type": "jar",
+        "type": "file",
+        "extension": "jar",
         "description": "Merges multiple AndroidManifest.xml files from libraries and flavors into a single manifest. Required for projects with dependencies that contribute manifest entries.",
         "files": {
             "26.6.0-dev": {
@@ -638,7 +640,8 @@
         }
     },
     "r8": {
-        "type": "jar",
+        "type": "file",
+        "extension": "jar",
         "description": "R8 compiles Java bytecode into DEX, then shrinks and obfuscates it. Required for release builds and any project using code minification.",
         "files": {
             "9.1.31": {
@@ -676,7 +679,8 @@
         }
     },
     "apksigner": {
-        "type": "jar",
+        "type": "file",
+        "extension": "jar",
         "description": "Signs APK files for distribution and provides cryptographic signature verification for Android. Required for app installation",
         "files": {
             "36": {
