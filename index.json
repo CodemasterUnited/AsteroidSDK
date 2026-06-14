@@ -721,5 +721,152 @@
                 }
             }
         }
+    },
+    "ndktoolchain": {
+        "type": "file",
+        "extension": "cmake",
+        "description": "The NDK toolchain file which directs CMake to do its work.",
+        "files": {
+            "22.0": {
+                "label": "NDKToolchain v22.0",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/ndktoolchain/ndktoolchain-v22.cmake"
+            }
+        }
+    },
+    "cmake": {
+        "type": "archive",
+        "description": "CMake cross-compiles C/C++ to Android by orchestrating NDK compilers.",
+        "linux": {
+            "arm": {
+                "4.3.3": {
+                    "label": "CMake v4.3.3",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/cmake/arm/cmake-v4.3.3.tar.gz"
+                }
+            },
+            "arm64": {
+                "4.3.3": {
+                    "label": "CMake v4.3.3",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/cmake/arm64/cmake-v4.3.3.tar.gz"
+                }
+            },
+            "x86": {
+                "4.3.3": {
+                    "label": "CMake v4.3.3",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/cmake/x86/cmake-v4.3.3.tar.gz"
+                }
+            },
+            "x86_64": {
+                "4.3.3": {
+                    "label": "CMake v4.3.3",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/cmake/x86_64/cmake-v4.3.3.tar.gz"
+                }
+            }
+        }
+    },
+    "clang": {
+        "type": "archive",
+        "description": "Clang is a C/C++ compiler front-end for LLVM that provides fast compilation, excellent error diagnostics, and supports multiple language standards.",
+        "linux": {
+            "arm": {
+                "22.1.6": {
+                    "label": "Clang v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/clang/arm/clang-v22.1.6.tar.gz"
+                }
+            },
+            "arm64": {
+                "22.1.6": {
+                    "label": "Clang v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/clang/arm64/clang-v22.1.6.tar.gz"
+                }
+            },
+            "x86": {
+                "22.1.6": {
+                    "label": "Clang v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/clang/x86/clang-v22.1.6.tar.xz"
+                }
+            },
+            "x86_64": {
+                "22.1.6": {
+                    "label": "Clang v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/clang/x86_64/clang-v22.1.6.tar.gz"
+                }
+            }
+        }
+    },
+    "llvm": {
+        "type": "archive",
+        "description": "LLVM provides LLVM-based replacements for GNU binutils tools (ar, nm, objdump, strip, etc.).",
+        "linux": {
+            "arm": {
+                "22.1.6": {
+                    "label": "LLVM v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/llvm/arm/llvm-v22.1.6.tar.gz"
+                }
+            },
+            "arm64": {
+                "22.1.6": {
+                    "label": "LLVM v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/llvm/arm64/llvm-v22.1.6.tar.gz"
+                }
+            },
+            "x86": {
+                "22.1.6": {
+                    "label": "LLVM v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/llvm/x86/llvm-v22.1.6.tar.gz"
+                }
+            },
+            "x86_64": {
+                "22.1.6": {
+                    "label": "LLVM v22.1.16",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/llvm/x86_64/llvm-v22.1.6.tar.gz"
+                }
+            }
+        }
+    },
+    "ninja": {
+        "type": "executable",
+        "description": "Ninja is a fast, minimal build system that generates builds from higher-level tools like CMake.",
+        "linux": {
+            "arm": {
+                "1.13.2": {
+                    "label": "Ninja v1.13.2",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/ninja/linux/static/arm/ninja-v1.13.2"
+                }
+            },
+            "arm64": {
+                "1.13.2": {
+                    "label": "Ninja v1.13.2",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/ninja/linux/static/arm64/ninja-v1.13.2"
+                }
+            },
+            "x86": {
+                "1.13.2": {
+                    "label": "Ninja v1.13.2",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/ninja/linux/static/x86/ninja-v1.13.2"
+                }
+            },
+            "x86_64": {
+                "1.13.2": {
+                    "label": "Ninja v1.13.2",
+                    "linking": "static",
+                    "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidNDK/main/ninja/linux/static/x86_64/ninja-v1.13.2"
+                }
+            }
+        }
     }
 }
