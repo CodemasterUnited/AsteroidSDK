@@ -868,5 +868,18 @@
                 }
             }
         }
+    },
+    "sysroot": {
+        "type": "archive",
+        "description": "Sysroot is the NDK directory containing Android system headers and libraries for different API levels and architectures.",
+        "any": {
+            "any": {
+                "27": {
+                    "label": "Sysroot r27",
+                    "linking": "static",
+                    "url": "https://android.googlesource.com/toolchain/prebuilts/ndk/r27/+archive/refs/heads/main-kernel/toolchains/llvm/prebuilt/linux-x86_64/sysroot.tar.gz"
+                }
+            }
+        }
     }
 }
