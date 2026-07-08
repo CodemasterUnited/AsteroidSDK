@@ -722,6 +722,17 @@
             }
         }
     },
+    "databinding-compiler": {
+        "type": "file",
+        "extension": "jar",
+        "description": "Helps compile databinding annotations.",
+        "files": {
+            "9.2.0": {
+                "label": "Databinding Compiler v9.2.0",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/databinding-compiler/databinding-compiler-v9.2.0.jar"
+            }
+        }
+    },
     "ndktoolchain": {
         "type": "file",
         "extension": "cmake",
@@ -881,5 +892,5 @@
                 }
             }
         }
-    }
+    },
 }
