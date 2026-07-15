@@ -722,6 +722,17 @@
             }
         }
     },
+    "r8-safeutf8-agent": {
+        "type": "file",
+        "extension": "jar",
+        "description": "Forces R8's bundled protobuf to use safe UTF-8 decoding, preventing SIGBUS crashes on 32-bit ARM.",
+        "files": {
+            "1.0.0": {
+                "label": "R8 SafeUTF8 Agent",
+                "url": "https://raw.githubusercontent.com/CodemasterUnited/AsteroidSDK/main/jars/r8-safeutf8-agent/r8-safeutf8-agent-v1.0.0.jar"
+            }
+        }
+    },
     "databinding-compiler": {
         "type": "file",
         "extension": "jar",
