@@ -616,6 +616,58 @@
             }
         }
     },
+    "framework.aidl": {
+        "type": "file",
+        "extension": "aidl",
+        "description": "Android framework's core AIDL type definition file that provides base interfaces like IBinder and Parcelable for AIDL compilation.",
+        "files": {
+            "36": {
+                "label": "Framework.AIDL API 36",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/36/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "35": {
+                "label": "Framework.AIDL API 35",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/35/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "34": {
+                "label": "Framework.AIDL API 34",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/34/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "33": {
+                "label": "Framework.AIDL API 33",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/33/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "32": {
+                "label": "Framework.AIDL API 32",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/32/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "31": {
+                "label": "Framework.AIDL API 31",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/31/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "30": {
+                "label": "Framework.AIDL API 30",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/30/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "29": {
+                "label": "Framework.AIDL API 29",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/29/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            },
+            "28": {
+                "label": "Framework.AIDL API 28",
+                "url": "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/android16-release/28/public/framework.aidl?format=TEXT",
+                "format": "base64"
+            }
+        }
+    },
     "manifest-merger": {
         "type": "file",
         "extension": "jar",
